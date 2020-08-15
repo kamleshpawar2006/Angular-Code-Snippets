@@ -7,13 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppMaterialModule } from './app-material.module';
 import { AppComponent } from './app.component';
-import { TableExpandCollapseMultipleRowComponent } from './components/table-expand-collapse-multiple-row/table-expand-collapse-multiple-row.component';
+import { DirtyFormCheckComponent } from './components/dirty-form-check/dirty-form-check.component';
 import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableExpandCollapseMultipleRowComponent,
+    DirtyFormCheckComponent,
     HomeComponent,
   ],
   imports: [
